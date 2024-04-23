@@ -53,7 +53,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1231876761554518067/image.png?ex=66276a23&is=662618a3&hm=85702267b6b88840e015c665661cf93d84c6d32f50a2c2c7bc6a0b4b5d737cb5&=&format=webp&quality=lossless&width=1191&height=670"
+                src="https://media.discordapp.net/attachments/817260455960510464/1231876761554518067/image.png?ex=6628bba3&is=66276a23&hm=76daf6088b7d35deecc039a8cd205bc286ae4431af9db12aa449cd14217294da&=&format=webp&quality=lossless&width=1190&height=670"
                 alt="Card image cap"
               />
               <div className="card-body">

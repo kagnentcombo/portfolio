@@ -33,7 +33,7 @@ const page = () => {
             <div className="card" style={{  border: "none", }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1231330977586876416/image.png?ex=66261696&is=6624c516&hm=d1171075b631c7d17c4b3a156f6c3a48e048fb85074ca250495a4bff3f21ea6a&=&format=webp&quality=lossless&width=1191&height=670"
+                src="https://media.discordapp.net/attachments/817260455960510464/1231330977586876416/image.png?ex=6628b996&is=66276816&hm=bce2bc1d1694890562c235e3b6456bac30514c062822307fa38a6b23c551bd1c&=&format=webp&quality=lossless&width=1190&height=670"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -49,7 +49,7 @@ const page = () => {
             <div className="card" style={{  border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1231330978103033996/image.png?ex=66261696&is=6624c516&hm=630f4711f3b2812675fe109382253e71349a27dc893b18e3941f1506ad5bc461&=&format=webp&quality=lossless&width=1191&height=670"
+                src="https://media.discordapp.net/attachments/817260455960510464/1231330978103033996/image.png?ex=6628b996&is=66276816&hm=a482bf68a9164e5c798d99c56f163471e01610daaec3eea7d7188fb90fee0347&=&format=webp&quality=lossless&width=1190&height=670"
                 alt="Card image cap"
               />
               <div className="card-body">
