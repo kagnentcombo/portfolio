@@ -3,7 +3,9 @@ import React, { useState, useEffect } from "react";
 
 const Page = () => {
   const [cardPosition, setCardPosition] = useState(0);
-  const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [windowWidth, setWindowWidth] = useState(
+    typeof window !== "undefined" ? window.innerWidth : 0
+  );
   console.log(cardPosition);
   const handleScrollLeft = () => {
     const maxPosition = 0;
@@ -51,7 +53,7 @@ const Page = () => {
               borderRadius: "10px",
               marginRight: "1rem",
               display: "flex",
-              justifyContent:"space-around",
+              justifyContent: "space-around",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -87,7 +89,7 @@ const Page = () => {
               borderRadius: "10px",
               marginRight: "1rem",
               display: "flex",
-              justifyContent:"space-around",
+              justifyContent: "space-around",
 
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
@@ -127,7 +129,7 @@ const Page = () => {
               borderRadius: "10px",
               marginRight: "1rem",
               display: "flex",
-              justifyContent:"space-around",
+              justifyContent: "space-around",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -163,7 +165,7 @@ const Page = () => {
               borderRadius: "10px",
               marginRight: "1rem",
               display: "flex",
-              justifyContent:"space-around",
+              justifyContent: "space-around",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -201,7 +203,7 @@ const Page = () => {
               borderRadius: "10px",
               marginRight: "1rem",
               display: "flex",
-              justifyContent:"space-around",
+              justifyContent: "space-around",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -238,7 +240,7 @@ const Page = () => {
               borderRadius: "10px",
               marginRight: "1rem",
               display: "flex",
-              justifyContent:"space-around",
+              justifyContent: "space-around",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -278,7 +280,7 @@ const Page = () => {
               borderRadius: "10px",
               marginRight: "1rem",
               display: "flex",
-              justifyContent:"space-around",
+              justifyContent: "space-around",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -314,7 +316,7 @@ const Page = () => {
               borderRadius: "10px",
               marginRight: "1rem",
               display: "flex",
-              justifyContent:"space-around",
+              justifyContent: "space-around",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
