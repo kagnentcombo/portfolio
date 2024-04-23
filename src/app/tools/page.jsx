@@ -81,16 +81,16 @@ const page = () => {
 
                 <div className="col-12">
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/GitLab_logo.svg/2560px-GitLab_logo.svg.png"
+                    src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/GitLab_icon.svg/800px-GitLab_icon.svg.png"
                     alt=""
                     className="rounded m-3"
-                    style={{ width: "150px", height: "100px" }}
+                    style={{ width: "100px", height: "100px" }}
                   />
                   <img
-                    src="https://upload.wikimedia.org/wikipedia/commons/c/c2/Postman_%28software%29.png"
+                    src="https://cdn.worldvectorlogo.com/logos/postman.svg"
                     alt=""
                     className="rounded m-3"
-                    style={{ width: "150px", height: "100px" }}
+                    style={{ width: "100px", height: "100px" }}
                   />
                   <img
                     src="https://upload.wikimedia.org/wikipedia/labs/8/8e/Mysql_logo.png"
