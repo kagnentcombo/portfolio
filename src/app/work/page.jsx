@@ -9,7 +9,9 @@ const Page = () => {
   console.log(cardPosition);
   const handleScrollLeft = () => {
     const maxPosition = 0;
-    const newPosition = cardPosition + 50;
+    const newPosition =
+      windowWidth > 600 ? cardPosition + 10 : cardPosition + 50;
+
     setCardPosition(Math.min(newPosition, maxPosition));
   };
 
@@ -30,7 +32,7 @@ const Page = () => {
     };
   }, []);
   return (
-    <div style={{ marginTop: "200px",}}>
+    <div style={{ marginTop: "200px" }}>
       <div
         className="card-group"
         style={{
@@ -156,7 +158,7 @@ const Page = () => {
               </a>
             </div>
           </div>
-          
+
           <div
             className="card mx-2"
             style={{
@@ -377,7 +379,6 @@ const Page = () => {
               </a>
             </div>
           </div>
-          
         </div>
       </div>
 
