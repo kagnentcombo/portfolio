@@ -20,7 +20,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232066894048137237/image.png?ex=66281b36&is=6626c9b6&hm=6b6fe8f96a330ab6ac8cf0c83c953f3f40f79930bd4a89b5a0915fa83d1f7cbf&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/fairy1.png"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -33,7 +33,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232066894534803546/image.png?ex=66281b36&is=6626c9b6&hm=ddfcd1d8cb56deea8d0e075a8e4ed876912c30530faa60606e954fd0b824066c&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/fairy2.png"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -46,7 +46,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232066894995918969/image.png?ex=66281b36&is=6626c9b6&hm=2db9f12245366888521927beb0342edc6d61ad4873278ce3517483bf9841e147&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/fairy3.png"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -60,7 +60,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232066895587446784/image.png?ex=66281b36&is=6626c9b6&hm=b62a5050cbea6cc42b0f221b8d0d1f201607b5192a608b3ee4afc125205ed753&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/fairy4.png"
                 alt="Card image cap"
               />
               <div className="card-body">

@@ -20,7 +20,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232002622299308063/image.png?ex=6628881a&is=6627369a&hm=e082d5cb13b168ccb3bd4b9d0dbb9bc522593d98c594c910301d7f7a5de3d6bd&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/combuy1.png"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -33,7 +33,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232002623293489162/image.png?ex=6628881a&is=6627369a&hm=0260973750bda94240db8200683e41e0b5ba62c1fceb9143639161b31b1467f9&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/combuy2.png"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -50,7 +50,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232002622769074237/image.png?ex=6628881a&is=6627369a&hm=7284919ad2bba3b45cb2d9604efdf7bea0bc0cf1c2b76a463f7ab521150acc0e&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/combuy3.png"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -64,7 +64,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232002623687622766/image.png?ex=6628881a&is=6627369a&hm=efae79c690c3d38fc4b4b91a87627c0c0419bdd64023888c90bb84a0e956f79c&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/combuy4.png"
                 alt="Card image cap"
               />
               <div className="card-body">

@@ -20,7 +20,7 @@ const page = () => {
             <div className="card" style={{  border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1231330976869646406/image.png?ex=66369155&is=66241c55&hm=71e45291e3b7a93a640491304376b384803c93e72140cc601aa87aa2aa5e86b4&=&format=webp&quality=lossless&width=1191&height=670"
+                src="/photo/Mercy1.png"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -33,7 +33,7 @@ const page = () => {
             <div className="card" style={{  border: "none", }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1231330977586876416/image.png?ex=6628b996&is=66276816&hm=bce2bc1d1694890562c235e3b6456bac30514c062822307fa38a6b23c551bd1c&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/Mercy2.png"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -49,7 +49,7 @@ const page = () => {
             <div className="card" style={{  border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1231330978103033996/image.png?ex=6628b996&is=66276816&hm=a482bf68a9164e5c798d99c56f163471e01610daaec3eea7d7188fb90fee0347&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/Mercy3.png"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -63,7 +63,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1231330978497036439/image.png?ex=66369156&is=66241c56&hm=56d0a9187ecf54f58a9f7f9538a49c8ed609df66cb0f9581494c5f09f59ae2c7&=&format=webp&quality=lossless&width=1191&height=670"
+                src="/photo/Mercy4.png"
                 alt="Card image cap"
               />
               <div className="card-body">

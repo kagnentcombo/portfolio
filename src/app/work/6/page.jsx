@@ -20,7 +20,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232065595927691315/image.png?ex=66281a00&is=6626c880&hm=0c7c1cf4de15ac691aaffd57de5f7b28584d4ac4f48395b7fc35c351da2712fe&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/hotel1.png"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -33,11 +33,11 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232065596397584454/image.png?ex=66281a00&is=6626c880&hm=3da0cf9739a28949c3677d51d402c75cfd9555b0b2b20a3d639ee6471506c4e5&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/hotel2.png"
                 alt="Card image cap"
               />
               <div className="card-body">
-                <h5 className="card-title">Clothing type page</h5>
+                <h5 className="card-title">Room type page</h5>
                 <hr />
                 <p className="card-text">Show all rooms.</p>
               </div>
@@ -47,7 +47,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232065596829466725/image.png?ex=66281a00&is=6626c880&hm=f705bf45145cba45eb8216dfa5210d2cd9931f275f3b1f5c51e91977d45362b2&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/hotel3.png"
                 alt="Card image cap"
               />
               <div className="card-body">
@@ -61,7 +61,7 @@ const page = () => {
             <div className="card" style={{ border: "none" }}>
               <img
                 className="card-img-top"
-                src="https://media.discordapp.net/attachments/817260455960510464/1232065597131718696/image.png?ex=66281a01&is=6626c881&hm=d9d8ff8d241a57cf3eee91e4c5dae54c99816f36392c0e32c7f48a6bcf5b1077&=&format=webp&quality=lossless&width=1190&height=670"
+                src="/photo/hotel4.png"
                 alt="Card image cap"
               />
               <div className="card-body">
