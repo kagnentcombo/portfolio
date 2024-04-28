@@ -63,25 +63,25 @@ const Navbar = () => {
             <li className="nav-item active ">
               <a
                 className="nav-link"
-                href="/work"
+                href="/works"
                 style={{
                   fontSize: "20px",
                   fontWeight: "700",
                 }}
               >
-                Work
+                Works
               </a>
             </li>
             <li className="nav-item active ">
               <a
                 className="nav-link"
-                href="/contract"
+                href="/contact"
                 style={{
                   fontSize: "20px",
                   fontWeight: "700",
                 }}
               >
-                Contract
+                Contact
               </a>
             </li>
           </ul>

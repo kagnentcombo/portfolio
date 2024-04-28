@@ -115,7 +115,7 @@ const Page = () => {
               </p>
             </div>
             <div className="pt-4">
-              <a href="/work/1" className="btn btn-outline-info">
+              <a href="/works/1" className="btn btn-outline-info">
                 details
               </a>
             </div>
@@ -153,7 +153,7 @@ const Page = () => {
               </p>
             </div>
             <div className="pt-4">
-              <a href="/work/2" className="btn btn-outline-info">
+              <a href="/works/2" className="btn btn-outline-info">
                 details
               </a>
             </div>
@@ -192,7 +192,7 @@ const Page = () => {
               </p>
             </div>
             <div className="pt-4">
-              <a href="/work/3" className="btn btn-outline-info">
+              <a href="/works/3" className="btn btn-outline-info">
                 details
               </a>
             </div>
@@ -229,7 +229,7 @@ const Page = () => {
               </p>
             </div>
             <div className="pt-4">
-              <a href="/work/4" className="btn btn-outline-info">
+              <a href="/works/4" className="btn btn-outline-info">
                 details
               </a>
             </div>
@@ -267,7 +267,7 @@ const Page = () => {
               </p>
             </div>
             <div className="pt-4">
-              <a href="/work/5" className="btn btn-outline-info">
+              <a href="/works/5" className="btn btn-outline-info">
                 details
               </a>
             </div>
@@ -307,7 +307,7 @@ const Page = () => {
               </p>
             </div>
             <div className="pt-4">
-              <a href="/work/6" className="btn btn-outline-info">
+              <a href="/works/6" className="btn btn-outline-info">
                 details
               </a>
             </div>
@@ -345,7 +345,7 @@ const Page = () => {
               </p>
             </div>
             <div className="pt-4">
-              <a href="/work/7" className="btn btn-outline-info">
+              <a href="/works/7" className="btn btn-outline-info">
                 details
               </a>
             </div>
@@ -382,7 +382,7 @@ const Page = () => {
               </p>
             </div>
             <div className="pt-4">
-              <a href="/work/8" className="btn btn-outline-info">
+              <a href="/works/8" className="btn btn-outline-info">
                 details
               </a>
             </div>
@@ -419,7 +419,7 @@ const Page = () => {
               </p>
             </div>
             <div className="pt-4">
-              <a href="/work/9" className="btn btn-outline-info">
+              <a href="/works/9" className="btn btn-outline-info">
                 details
               </a>
             </div>
