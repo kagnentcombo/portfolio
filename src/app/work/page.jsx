@@ -16,7 +16,7 @@ const Page = () => {
   };
 
   const handleScrollRight = () => {
-    const minPosition = -2000; // 400 is the minimum width of each card, and 6 is the number of cards
+    const minPosition = -1300;
     const newPosition =
       windowWidth < 600 ? cardPosition - 50 : cardPosition - 10;
     setCardPosition(Math.max(newPosition, minPosition));
@@ -32,18 +32,55 @@ const Page = () => {
     };
   }, []);
   return (
-    <div style={{ marginTop: "200px" }}>
-      <div
+    <div style={{ marginTop: "150px", position: "relative" }}>
+    <div
         className="card-group"
         style={{
           overflowX: "hidden",
         }}
       >
-        <div
-          className="d-flex flex-nowrap "
+        <button
+          onClick={handleScrollLeft}
           style={{
-            transform: `translate(-0%, -0%) translateX(${cardPosition}%)`,
-            transition: "transform 0.5s ease",
+            position: "absolute",
+            left: "1%",
+            top: "50%",
+            transform: "translateY(-50%)",
+            zIndex: "1",
+            borderRadius: "20px",
+            backgroundColor: "rgba(255, 255, 255, 0.5)",
+            border: "none",
+            padding: "10px",
+            boxShadow:
+              "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
+          }}
+        >
+          <img src="/photo/left-arrow.png" width="18px" height="18px" />
+        </button>
+        <button
+          onClick={handleScrollRight}
+          style={{
+            position: "absolute",
+            right: "1%",
+            top: "50%",
+            transform: "translateY(-50%)",
+            zIndex: "1",
+            borderRadius: "20px",
+            backgroundColor: "rgba(255, 255, 255, 0.5)",
+            border: "none",
+            padding: "10px",
+            boxShadow:
+              "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
+          }}
+        >
+          <img src="/photo/right-arrow.png" width="18px" height="18px" />
+        </button>
+        <div
+          className="d-flex flex-nowrap p-5"
+          style={{
+            display: "flex",
+            transform: `translateX(${cardPosition}%)`,
+            transition: "transform 1s ease",
           }}
         >
           <div
@@ -56,6 +93,7 @@ const Page = () => {
               marginRight: "1rem",
               display: "flex",
               justifyContent: "space-around",
+              position: "relative",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -92,7 +130,7 @@ const Page = () => {
               marginRight: "1rem",
               display: "flex",
               justifyContent: "space-around",
-
+              position: "relative",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -132,6 +170,7 @@ const Page = () => {
               marginRight: "1rem",
               display: "flex",
               justifyContent: "space-around",
+              position: "relative",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -145,7 +184,7 @@ const Page = () => {
             </div>
 
             <div className="card-body pt-4">
-              <h5 className="card-title">Time Tracking (Intership)</h5>
+              <h5 className="card-title">Time Tracking (Intern SCB)</h5>
               <hr />
               <p className="card-text" style={{ whiteSpace: "normal" }}>
                 Feature My Team - feature for direct managers to effortlessly
@@ -169,6 +208,7 @@ const Page = () => {
               marginRight: "1rem",
               display: "flex",
               justifyContent: "space-around",
+              position: "relative",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -205,6 +245,7 @@ const Page = () => {
               marginRight: "1rem",
               display: "flex",
               justifyContent: "space-around",
+              position: "relative",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -242,6 +283,7 @@ const Page = () => {
               marginRight: "1rem",
               display: "flex",
               justifyContent: "space-around",
+              position: "relative",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -282,6 +324,7 @@ const Page = () => {
               marginRight: "1rem",
               display: "flex",
               justifyContent: "space-around",
+              position: "relative",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -318,6 +361,7 @@ const Page = () => {
               marginRight: "1rem",
               display: "flex",
               justifyContent: "space-around",
+              position: "relative",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -353,6 +397,7 @@ const Page = () => {
               marginRight: "1rem",
               display: "flex",
               justifyContent: "space-around",
+              position: "relative",
               boxShadow:
                 "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
             }}
@@ -381,43 +426,6 @@ const Page = () => {
           </div>
         </div>
       </div>
-
-      <button
-        onClick={handleScrollLeft}
-        style={{
-          position: "absolute",
-          left: "1%",
-          top: "50%",
-          transform: "translateY(-50%)",
-          zIndex: "1",
-          borderRadius: "20px",
-          backgroundColor: "rgba(255, 255, 255, 0.5)",
-          border: "none",
-          padding: "10px",
-          boxShadow:
-            "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
-        }}
-      >
-        <img src="/photo/left-arrow.png" width="18px" height="18px" />
-      </button>
-      <button
-        onClick={handleScrollRight}
-        style={{
-          position: "absolute",
-          right: "1%",
-          top: "50%",
-          transform: "translateY(-50%)",
-          zIndex: "1",
-          borderRadius: "20px",
-          backgroundColor: "rgba(255, 255, 255, 0.5)",
-          border: "none",
-          padding: "10px",
-          boxShadow:
-            "rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset",
-        }}
-      >
-        <img src="/photo/right-arrow.png" width="18px" height="18px" />
-      </button>
     </div>
   );
 };
